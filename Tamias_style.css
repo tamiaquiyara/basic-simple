@@ -1,0 +1,427 @@
+body {
+    background-color: #270102;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.9em;
+    color: #110001;
+}
+
+.header {
+    background-color: #B38E76;
+    padding: 0.8em;
+    /* margin: 0.8em; */
+    text-align:center;
+    border-radius: 0.5em;
+}
+
+.city {
+    background-color: #9e415a;
+    padding: 0.8em;
+    /* margin: 0.8em; */ 
+    /* text-align: justify; */
+    border-radius: 0.5em;
+}
+
+.language {
+    background-color: #be637b;
+    padding: 0.8em;
+    /* margin: 0.8em; */
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.historical-places{
+    background-color: #722e2e;
+    padding: 0.3em;
+    margin: 1em;
+    text-align: center;
+    border-radius: 0.5em;
+/* width: 46.5em; */}
+
+
+table {
+    border-collapse: collapse;
+    width: 85%;
+    margin: auto;
+    
+  }
+
+th, td {
+    border: 2px solid #652A3A;
+    padding: 5px;
+    text-align: left;
+    
+  }
+
+  th {
+    background-color: #8b3f53;
+    text-align: center;
+  }
+
+
+.place-1 {
+    background-color: #722e2e;
+    /* padding: 0.8em; */
+    /* margin: 0.6em; */
+    /* width: 30.2%; */
+    /* height: 30.2em; */
+    /* float: left; */
+    /* text-align: left; */
+    /*border: 1px solid #270102;
+    border-radius: 0.8em;*/
+}
+
+.place-2 {
+    background-color: #722e2e;
+    /* padding: 0.8em; */
+    /* margin: 0.6em; */
+    /* width: 30.2%; */
+    /*height: 30.2em;*/
+    /* float: left; */
+    /* text-align: left; */
+    /*border: 1px solid #270102;
+    border-radius: 0.8em;*/
+}
+
+.place-3 {
+    background-color: #722e2e;
+    /* padding: 0.8em; */
+    /* margin: 0.6em; */
+    /* width: 30.2%; */
+    /*height: 30.2em; */
+    /* float: left; */
+    /* text-align: left; */
+   /* border: 1px solid #270102;
+    border-radius: 0.8em;*/
+}
+
+.header img {
+    float: right;
+    /* margin: 0.8em; */ 
+    width: 45%;
+    height: 15em;
+    border: 1px solid #8b3f53;
+    border-radius: 0.8em;
+}
+
+.city img {
+    float: left;
+    margin-right: 0.2em;
+    /* margin-left: 1em; */
+    /* margin-bottom: 0em; */
+    /* margin-top: 2em; */width: 50%;
+    height: 15em;
+    border: 1px solid #8b3f53;
+    border-radius: 0.8em;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.place-1 img {
+    float: right;
+    margin: 0.1em; 
+    width: 50%;
+    height: 14em;
+    border: 1px solid #8b3f53;
+    border-radius: 0.8em;
+}
+
+.place-2 img {
+    float: right;
+    margin: 0.1em; 
+    width: 50%;
+    height: 14em;
+    border: 1px solid #8b3f53;
+    border-radius: 0.8em;
+}
+
+.place-3 img {
+    float: right;
+    margin: 0.1em; 
+    width: 50%;
+    height: 14em;
+    border: 1px solid #8b3f53;
+    border-radius: 0.8em;
+}
+@media only screen and (max-width:800px) {
+
+    .historical-places {
+    /* display: flex; */
+    /* padding: 1em; */
+    
+    
+margin: 0.8em;}
+
+    .place-1 {
+        background-color: #722e2e;
+        /* padding: 0.8em; */
+        /* margin: auto; */
+        /* width: 90%; */
+        /*height: 30.2em;*/
+        /* display: inline-flex; */
+        /*text-align: left;
+        /*border: 1px solid #270102;
+        border-radius: 0.8em;*/
+    }
+    
+    .place-2 {
+        background-color: #722e2e;
+        /* padding: 0.8em; */
+        /* margin: 0.6em; */
+        /* width: 90%; */
+        /*height: 30.2em;*/
+        display: block;
+        /*text-align: left;
+        /*border: 1px solid #270102;
+        border-radius: 0.8em;*/
+    }
+    
+    .place-3 {
+        background-color: #722e2e;
+        /* padding: 0.8em; */
+        /* margin: 0.6em; */
+        /* width: 90%; */
+        /*height: 30.2em; */
+        display: block;
+        /*text-align: left;
+       /* border: 1px solid #270102;
+        border-radius: 0.8em;*/
+    }
+    
+    .header img {
+        margin: auto; 
+        width: 90%;
+        height: 20em;
+        border: 1px solid #8b3f53;
+        border-radius: 0.8em;
+    float: unset;}
+    
+    .city img {
+        margin: auto;
+        width: 90%; 
+        height: 20em; 
+        border: 1px solid #8b3f53;
+        border-radius: 0.8em;
+    /* padding: 1em; */float: unset;}
+    
+    .clearfix {
+        overflow: auto;
+    }
+    
+    .place-1 img {
+        float: right;
+        margin: 0.3em; 
+        width: 90%;
+        height: 14em;
+        border: 1px solid #8b3f53;
+        border-radius: 0.8em;
+    }
+    
+    .place-2 img {
+        float: right;
+        margin: 0.3em; 
+        width: 90%;
+        height: 14em;
+        border: 1px solid #8b3f53;
+        border-radius: 0.8em;
+    }
+    
+    .place-3 img {
+        float: right;
+        margin: 0.3em; 
+        width: 90%;
+        height: 14em;
+        border: 1px solid #8b3f53;
+        border-radius: 0.8em;
+    }
+
+    .header {
+        background-color: #B38E76;
+        /* padding: 0.8em; */
+        /* margin: 0.8em; */
+        text-align:center;
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+
+    .city {
+        background-color: #9e415a;
+        /* padding: 0.8em; */
+        /* margin: 0.8em; */ 
+        /* text-align: justify; */
+        /* display: block; */ 
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+    
+    .language {
+        background-color: #be637b;
+        /* padding: 0.8em; */
+        /* margin: 0.8em; */
+        /* text-align: justify; */
+        /* display: flex; */  
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 85%;
+        margin: auto;
+        
+      }
+    
+    th, td {
+        border: 2px solid #652A3A;
+        padding: 5px;
+        text-align: left;
+        
+      }
+    
+      th {
+        background-color: #8b3f53;
+        text-align: center;
+      }
+
+}
+
+@media only screen and (max-width:426px) {
+
+    .historical-places {
+    display: block;
+    /* padding: 0.4em; */
+
+    }
+
+    .place-1 {
+        background-color: #722e2e;
+        /* padding: 0.8em; */
+        margin: 0.6em;
+        /* width: 90%; */
+        /*height: 30.2em;*/
+        display: block;
+        /*text-align: left;
+        /*border: 1px solid #270102;
+        border-radius: 0.8em;*/
+    }
+    
+    .place-2 {
+        background-color: #722e2e;
+        /* padding: 0.8em; */
+        margin: 0.6em;
+        /* width: 90%; */
+        /*height: 30.2em;*/
+        display: block;
+        /*text-align: left;
+        /*border: 1px solid #270102;
+        border-radius: 0.8em;*/
+    }
+    
+    .place-3 {
+        background-color: #722e2e;
+        /* padding: 0.8em; */
+        margin: 0.6em;
+        /* width: 90%; */
+        /*height: 30.2em; */
+        display: block;
+        /*text-align: left;
+       /* border: 1px solid #270102;
+        border-radius: 0.8em;*/
+    }
+    
+    .header img {
+        margin: auto; 
+        width: 90%;
+        height: 15em;
+        border: 1px solid #8b3f53;
+        border-radius: 0.8em;
+    }
+    
+    .city img {
+        margin: auto;
+        width: 95%; 
+        height: 16em; 
+        border: 1px solid #8b3f53;
+        border-radius: 0.8em;
+    }
+    
+    .clearfix {
+        overflow: auto;
+    }
+    
+    .place-1 img {
+        /* float: right; */
+        margin: 0.3em; 
+        width: 45%;
+        height: 15em;
+        border: 1px solid #8b3f53;
+        border-radius: 0.8em;
+    }
+    
+    .place-2 img {
+        float: left;
+        margin: 0.3em; 
+        width: 45%;
+        height: 15em;
+        border: 1px solid #8b3f53;
+        border-radius: 0.8em;
+    }
+    
+    .place-3 img {
+        float: right;
+        margin: 0.3em; 
+        width: 45%;
+        height: 15em;
+        border: 1px solid #8b3f53;
+        border-radius: 0.8em;
+    }
+
+    .header {
+        background-color: #B38E76;
+        padding: 0.8em;
+        margin: 0.8em;
+        /* text-align:center; */
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+
+    .city {
+        background-color: #9e415a;
+        padding: 0.8em;
+        margin: 0.8em; 
+        /* text-align: justify; */
+        /* display: flex; */ 
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+    
+    .language {
+        background-color: #be637b;
+        padding: 0.8em;
+        margin: 0.8em;
+        /* text-align: justify; */
+        /* display: flex; */  
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 95%;
+        margin: auto;
+        
+      }
+    
+    th, td {
+        border: 2px solid #652A3A;
+        padding: 5px;
+        text-align: left;
+        
+      }
+    
+      th {
+        background-color: #8b3f53;
+        text-align: center;
+      }
+}
